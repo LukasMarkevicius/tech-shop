@@ -1,0 +1,58 @@
+section#home
+
+  .wrapper
+    max-width: 960px
+    display: flex
+    flex-wrap: wrap
+    justify-content: center
+
+    .product
+      width: 300px
+      height: auto
+      background: $plate
+      border: 3px solid $border
+      border-radius: 10px
+      font-size: 25px
+
+      .image-wrap
+        width: 95%
+        height: 265px
+        background: $white
+        border-radius: 10px 10px 0 0
+        margin: 2.5%
+        display: flex
+        justify-content: center
+        position: relative
+        overflow: hidden
+
+        &:hover .product-description
+          opacity: 1
+          transform: translate(0%, 0%) scale(1)
+
+
+        .product-description
+          text-decoration: none
+          position: absolute
+          top: 0
+          bottom: 0
+          left: 0
+          right: 0
+          background: fade-out(black, 0.3)
+          transform: translate(0%, 100%) scale(0.5)
+          opacity: 0
+
+          p
+            color: $white
+            padding: 20px 10px
+            margin: 0
+            font-size: 20px
+
+        img
+          max-width: 100%
+          width: auto
+          max-height: 100%
+          height: auto
+
+      .product-name
+        margin: 2.5%
+        float: left

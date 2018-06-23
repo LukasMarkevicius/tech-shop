@@ -1,0 +1,67 @@
+doctype
+html
+  head
+    meta(charset="utf-8")
+    title Smoke Cloud
+    meta(name="viewport", content="width=device-width, initial-scale=1")
+    
+    link(rel="stylesheet", href="../../assets/css/main.css")
+    
+  body
+    
+    header#miniheader
+      .wrapper 
+        nav
+          a(href="../../index.html", alt="Smoke Cloud")
+            .logo
+              img(src="../../assets/img/icons/logo.svg")
+          
+          ul 
+            li
+              a(href="../../#home") Pradžia
+            li
+              a(href="../../#shop") Parduotuvė
+            li
+              a(href="../../#info") Informacija
+            li
+              a(href="../../#contacts") Kontaktai
+            
+    section#home
+    
+      .text-wrapper
+        h2 Liqua Menthol
+        
+      .flex.flex--center
+        .show-wrapper
+          .image-wrap
+            img(src="../../assets/img/shop-products/e-juice/menthol.jpg", alt="Liqua Menthol")
+          
+          p.description Liqua firmos skystis, mėtinio skonio.
+          .buy
+            p.product-price 3,99&#8364
+            a(href="#").button Į krepšelį
+    footer
+      .wrapper
+        ul
+          li
+            a(href="../../#home") Pradžia
+          li
+            a(href="../../#shop") Parduotuvė
+          li
+            a(href="../../#info") Informacija
+          li
+            a(href="../../#contacts") Kontaktai
+            
+        .text-wrapper
+          h6 &copy; Copyright 2016 / <a href="#miniheader">Smoke Cloud</a>
+          
+        .social
+          a(href="https://www.youtube.com/", target="_blank")
+            .ikona.yt
+              include ../../assets/img/icons/youtube.html
+          a(href="https://www.facebook.com/", target="_blank")
+            .ikona.fb
+              include ../../assets/img/icons/facebook.html
+            
+    script(src="../../assets/js/jquery-2.2.0.min.js")
+    script(src="../../assets/js/functions.js", type="text/javascript")

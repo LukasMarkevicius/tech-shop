@@ -1,0 +1,52 @@
+section#contacts
+  background: $plate
+  background-image: url(../img/pattern.svg)
+  background-position: center
+  position: relative
+
+  .contact-wrap
+    max-width: 1000px
+    display: flex
+    flex-wrap: wrap
+    justify-content: center
+
+    @media (max-width: 980px)
+      max-width: 350px
+
+    .city-plate
+      width: 300px
+      height: 370px
+      background: $white
+      border-radius: 10px
+      margin: 0 10px 20px
+
+      .contacts-wrapper
+        margin: 0 30px
+
+        .city
+          font-size: 36px
+          color: $blue
+
+        .line
+          margin: 20px 0
+          display: flex
+          flex-direction: row
+
+          .icon
+            display: block
+            width: 35px
+            height: 35px
+            path
+              fill: $blue
+
+            .icons
+              height: 30px
+              width: 30px
+
+          .text-wrap
+            margin-left: 10px
+
+            p
+              margin-left: 20px
+              font-size: 24px
+              margin: 2.5px 0

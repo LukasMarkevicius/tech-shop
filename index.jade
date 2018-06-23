@@ -1,0 +1,274 @@
+doctype
+html
+  head
+    meta(charset="utf-8")
+    title Smoke Cloud
+    meta(name="viewport", content="width=device-width, initial-scale=1")
+    
+    link(rel="stylesheet", href="assets/css/main.css")
+    
+  body
+    
+    header#landing
+      .wrapper
+        nav
+          a(href="index.html", alt="Smoke Cloud")
+            .logo
+              img(src="assets/img/icons/logo.svg")
+          
+          ul
+            li
+              a(href="#home") Pradžia
+            li
+              a(href="#shop") Parduotuvė
+            li
+              a(href="#info") Informacija
+            li
+              a(href="#contacts") Kontaktai
+
+        .text-wrapper
+          h1 Smoke Cloud
+          p Elektroninių cigarečių parduotuvė
+        
+          img(src="assets/img/icons/arrow.svg")
+
+    section#home
+      
+      .text-wrapper
+        h2 Nauji Produktai
+      
+      .flex.flex--center
+        .wrapper
+          .col-1
+            .product
+              .image-wrap
+                a(href="parduotuve/kaitikliai/aspire-cleito.html").product-description
+                  p Aspire Cleito labai unikalaus dizaino kaitiklis. Didelis oro padavimas, 3,5 ml talpos bakas, leidžia ilgai mėgautis jums pamėgtu skysčiu.
+                img(src="assets/img/shop-products/atomizers/aspire-cleito.jpg", alt="Aspire Cleito")
+              
+              p.product-name Aspire Cleito
+              p.product-price 39,99&#8364
+              a(href="#").button Į krepšelį
+          .col-1
+            .product
+              .image-wrap
+                a(href="parduotuve/skysciai/boss-reserve.html").product-description
+                  p Cuttwood firmos skystis, turintis unikalų skonį.
+                img(src="assets/img/shop-products/e-juice/boss-reserve.jpg", alt="Boss Reserve")
+              p.product-name Boss Reserve
+              p.product-price 10,99&#8364
+              a(href="#").button Į krepšelį
+          .col-1
+            .product
+              .image-wrap
+                a(href="parduotuve/kaitikliai/aromamizer.html").product-description
+                  p Tai RDTA kaitiklis su unikalia oro padavimo sistema, talpina net 6ml skysčio.
+                img(src="assets/img/shop-products/atomizers/aromamizer.jpg", alt="Aromamizer")
+              p.product-name Aromamizer
+              p.product-price 59,99&#8364
+              a(href="#").button Į krepšelį
+          .col-1
+            .product
+              .image-wrap
+                a(href="parduotuve/rinkiniai/boxer.html").product-description
+                  p Paprasta elektroninė cigaretė skirta pažengusiems garintojams.
+                img(src="assets/img/shop-products/starter-kit/boxer.jpg", alt="Boxer Kit")
+              p.product-name Boxer Kit
+              p.product-price 99,99&#8364
+              a(href="#").button Į krepšelį
+          .col-1
+            .product
+              .image-wrap 
+                a(href="parduotuve/baterijos/wismec.html").product-description
+                  p Jeigu reikia ilgai laikančios baterijos, tai ši yra kaip tik jums, nes talpina savyje net 3 baterijas.
+                img(src="assets/img/shop-products/mods/wismec-reuleaux.jpg", alt="Wismec Reauleaux")
+              p.product-name Wismec Reuleaux
+              p.product-price 59,99&#8364
+              a(href="#").button Į krepšelį
+          .col-1
+            .product
+              .image-wrap
+                a(href="parduotuve/rinkiniai/kanger-kit.html").product-description
+                  p Paprasta, bet stilinga, leidžianti mėgautis labai skaniu skoniu bei tirštais dūmais.
+                img(src="assets/img/shop-products/starter-kit/kanger-topbox.jpg", alt="Kanger Kit")
+              p.product-name Kanger Kit
+              p.product-price 109,99&#8364
+              a(href="#").button Į krepšelį
+    
+    section#shop
+      .text-wrapper
+        h2 Parduotuvė
+        
+      .flex.flex--center
+        .wrapper
+          a(href="parduotuve/kaitikliai/atomaizers.html")
+            .category
+              .image
+                include assets/img/icons/atomaizer.html
+              p Kaitikliai
+          a(href="parduotuve/baterijos/batteries.html")
+            .category
+              .image
+                include assets/img/icons/battery.html
+              p Baterijos
+          a(href="parduotuve/rinkiniai/starter-kits.html")
+            .category
+              .image
+                include assets/img/icons/starter-kit.html
+              p Starter Kit
+          a(href="parduotuve/skysciai/e-juices.html")
+            .category
+              .image
+                include assets/img/icons/e-juice.html
+              p Skysčiai
+    
+    section#info
+      .text-wrapper
+        h2 Informacija
+        p.detailed Apie mus
+        
+      .flex.flex--center
+        .around
+          .info
+            .circle
+              .icon
+                include assets/img/icons/new.html
+            .text
+              p SmokeCloud - naujai įsikūrusi elektroninių cigarečių parduotuvė Lietuvoje.
+          .info
+            .circle
+              .icon
+                include assets/img/icons/quality.html
+            .text
+              p SmokeCloud garantuoja savo pirkėjams tik aukščiausios kokybės produktus.
+          .info
+            .circle
+              .icon
+                .icons
+                  include assets/img/icons/shopping.html
+            .text
+              p Atsinaujinantis asortimentas visada leis domėtis ir mėgautis naujausiais produktais.
+          .info
+            .circle
+              .icon
+                .icons
+                  include assets/img/icons/task.html
+            .text
+              p Kokybiškas aptarnavimas ir prekių pristatymas visoje Lietuvoje.
+                
+    section#contacts
+          .text-wrapper
+            h2 Kontaktai
+            
+          .flex.flex--center
+            .contact-wrap
+              .city-plate
+                .contacts-wrapper
+                  .text-wrapper
+                    p.city Vilnius
+                  .line
+                    .icon
+                      .icons
+                        include assets/img/icons/place.html
+                    .text-wrap
+                      p K. Ladygos g. 5
+                  .line
+                    .icon
+                      .icons
+                        include assets/img/icons/clock.html
+                    .text-wrap
+                      p I - V 10:00 - 19:00
+                      p VI 10:00 - 18:00
+                      p VII nedirbame
+                  .line
+                    .icon
+                      .icons
+                        include assets/img/icons/phone.html
+                    .text-wrap
+                      p +37069985478
+              .city-plate
+                .contacts-wrapper
+                  .text-wrapper
+                    p.city Kaunas
+                  .line
+                    .icon
+                      .icons
+                        include assets/img/icons/place.html
+                    .text-wrap
+                      p Kauno g. 25
+                  .line
+                    .icon
+                      .icons
+                        include assets/img/icons/clock.html
+                    .text-wrap
+                      p I - V 11:00 - 20:00
+                      p VI 12:00 - 19:00
+                      p VII nedirbame
+                  .line
+                    .icon
+                      .icons
+                        include assets/img/icons/phone.html
+                    .text-wrap
+                      p +37012345678
+              .city-plate
+                .contacts-wrapper
+                  .text-wrapper
+                    p.city Klaipėda
+                  .line
+                    .icon
+                      .icons
+                        include assets/img/icons/place.html
+                    .text-wrap
+                      p Uosto g. 125
+                  .line
+                    .icon
+                      .icons
+                        include assets/img/icons/clock.html
+                    .text-wrap
+                      p I - V 10:00 - 19:00
+                      p VI 10:00 - 18:00
+                      p VII nedirbame
+                  .line
+                    .icon
+                      .icons
+                        include assets/img/icons/phone.html
+                    .text-wrap
+                      p +37068523698
+              
+          
+    footer#footer
+      a(href="#landing").arrow-up
+        img(src="assets/img/icons/up-arrow.svg").arrow
+              
+      .wrapper
+        ul
+          li
+            a(href="#home") Pradžia
+          li
+            a(href="#shop") Parduotuvė
+          li
+            a(href="#info") Informacija
+          li
+            a(href="#contacts") Kontaktai
+
+            
+        .text-wrapper.mobile
+          h6 &copy; Copyright 2016 / <a href="#landing">Smoke Cloud</a>
+          
+        .text-wrapper.normal
+          a(href="index.html", alt="Smoke Cloud")
+            .logo
+              img(src="assets/img/icons/logo.svg")
+          h6 &copy; Copyright 2016
+          
+          
+        .social
+          a(href="https://www.youtube.com/", target="_blank")
+            .ikona.yt
+              include assets/img/icons/youtube.html
+          a(href="https://www.facebook.com/", target="_blank")
+            .ikona.fb
+              include assets/img/icons/facebook.html
+          
+    script(src="assets/js/jquery-2.2.0.min.js")
+    script(src="assets/js/functions.js", type="text/javascript")

@@ -1,0 +1,87 @@
+footer
+  background: $blue
+  padding: 70px 0
+  position: relative
+
+  .wrapper
+    padding: 0 5%
+    display: flex
+    flex-direction: row
+    justify-content: space-between
+    align-items: flex-end
+
+    ul
+      margin: 0
+      padding: 0
+      list-style-type: none
+
+      li
+        margin: 7px 0
+
+        a
+          text-decoration: none
+          color: black
+          font-size: 16px
+
+          &:hover
+            color: $white
+
+    .text-wrapper
+      .logo
+        margin: 0 auto 5px
+      h6
+        font-size: 16px
+        font-weight: 400
+        margin: 0
+
+      a
+        text-decoration: none
+        color: $white
+
+        &:hover
+          text-decoration: underline
+
+    .mobile
+      display: none
+
+    .social
+      a
+        text-decoration: none
+
+        .ikona
+          width: 40px
+          height: 40px
+          margin: 0 5px
+          display: inline-block
+          border-radius: 50%
+
+        .yt:hover
+          background: $white
+          path
+            fill: #b31217
+
+        .fb:hover
+          background: $white
+          path
+            fill: #3B5998
+
+  @media (max-width: 650px)
+    .wrapper
+      flex-direction: column
+      justify-content: center
+      align-items: center
+
+      ul
+        margin: 0 0 20px 0
+
+      .text-wrapper
+        order: 2
+
+      .normal
+        display: none
+
+      .mobile
+        display: block
+
+      .social
+        margin: 0 0 20px 0

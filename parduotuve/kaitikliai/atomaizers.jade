@@ -1,0 +1,128 @@
+doctype
+html
+  head
+    meta(charset="utf-8")
+    title Smoke Cloud
+    meta(name="viewport", content="width=device-width, initial-scale=1")
+    
+    link(rel="stylesheet", href="../../assets/css/main.css")
+    
+  body
+    
+    header#miniheader
+      .wrapper 
+        nav
+          a(href="../../index.html", alt="Smoke Cloud")
+            .logo
+              img(src="../../assets/img/icons/logo.svg")
+          
+          ul 
+            li
+              a(href="../../#home") Pradžia
+            li
+              a(href="../../#shop") Parduotuvė
+            li
+              a(href="../../#info") Informacija
+            li
+              a(href="../../#contacts") Kontaktai
+        
+    section#home
+      
+      .text-wrapper
+        h2 Kaitikliai
+      
+      .flex.flex--center
+        .wrapper
+          .col-1
+            .product
+              .image-wrap
+                a(href="aspire-cleito.html").product-description
+                  p Aspire Cleito labai unikalaus dizaino kaitiklis. Didelis oro padavimas, 3,5 ml talpos bakas, leidžia ilgai mėgautis jums pamėgtu skysčiu.
+                img(src="../../assets/img/shop-products/atomizers/aspire-cleito.jpg", alt="Aspire Cleito")
+              
+              p.product-name Aspire Cleito
+              p.product-price 39,99&#8364
+              a(href="#").button Į krepšelį
+          .col-1
+            .product
+              .image-wrap
+                a(href="aspire-atlantis.html").product-description
+                  p Aspire Atlantis vienas iš pirmųjų kaitiklių turinčių kaitinimo sistemą apačioje. Suteikia nepakartojamą skonį ir didelį tirštų dūmų kiekį.
+                img(src="../../assets/img/shop-products/atomizers/aspire-atlantis.png", alt="Aspire Atlantis")
+              p.product-name Aspire Atlantis
+              p.product-price 34,99&#8364
+              a(href="#").button Į krepšelį
+          .col-1
+            .product
+              .image-wrap
+                a(href="aromamizer.html").product-description
+                  p Tai RDTA kaitiklis su unikalia oro padavimo sistema, talpina net 6ml skysčio.
+                img(src="../../assets/img/home-products/aromamizer.jpg", alt="Aromamizer")
+              p.product-name Aromamizer
+              p.product-price 59,99&#8364
+              a(href="#").button Į krepšelį
+          .col-1
+            .product
+              .image-wrap
+                a(href="aspire-triton.html").product-description
+                  p Aspire Triton unikalaus dizaino kaitiklis turintis užpylimo sistemą viršuje.
+                img(src="../../assets/img/shop-products/atomizers/aspire-triton.jpg", alt="Aspire Triton")
+              p.product-name Aspire Triton
+              p.product-price 59,99&#8364
+              a(href="#").button Į krepšelį
+          .col-1
+            .product
+              .image-wrap
+                a(href="griffin.html").product-description
+                  p Turbūt kol kas pats geriausias RDTA tipo kaitiklis.
+                img(src="../../assets/img/shop-products/atomizers/griffin.jpg", alt="Griffin")
+              p.product-name Griffin
+              p.product-price 59,99&#8364
+              a(href="#").button Į krepšelį
+          .col-1
+            .product
+              .image-wrap
+                a(href="protank.html").product-description
+                  p Paprastas, mažas, bet galingas kaitiklis.
+                img(src="../../assets/img/shop-products/atomizers/protank-3.jpg", alt="Protank 3")
+              p.product-name Protank 3
+              p.product-price 19,99&#8364
+              a(href="#").button Į krepšelį
+              
+      .pagination
+        ul
+          a(href="#").disabled Atgal
+            li
+          a(href="#").current 1
+            li
+          a(href="#") 2
+            li            
+          a(href="#") Pirmyn
+            li
+            
+          
+    footer
+      .wrapper
+        ul
+          li
+            a(href="../../#home") Pradžia
+          li
+            a(href="../../#shop") Parduotuvė
+          li
+            a(href="../../#info") Informacija
+          li
+            a(href="../../#contacts") Kontaktai
+            
+        .text-wrapper
+          h6 &copy; Copyright 2016 / <a href="#miniheader">Smoke Cloud</a>
+          
+        .social
+          a(href="https://www.youtube.com/", target="_blank")
+            .ikona.yt
+              include ../../assets/img/icons/youtube.html
+          a(href="https://www.facebook.com/", target="_blank")
+            .ikona.fb
+              include ../../assets/img/icons/facebook.html
+            
+    script(src="../../assets/js/jquery-2.2.0.min.js")
+    script(src="../../assets/js/functions.js", type="text/javascript")

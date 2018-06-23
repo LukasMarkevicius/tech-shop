@@ -1,0 +1,128 @@
+doctype
+html
+  head
+    meta(charset="utf-8")
+    title Smoke Cloud
+    meta(name="viewport", content="width=device-width, initial-scale=1")
+    
+    link(rel="stylesheet", href="../../assets/css/main.css")
+    
+  body
+    
+    header#miniheader
+      .wrapper 
+        nav
+          a(href="../../index.html", alt="Smoke Cloud")
+            .logo
+              img(src="../../assets/img/icons/logo.svg")
+          
+          ul 
+            li
+              a(href="../../#home") Pradžia
+            li
+              a(href="../../#shop") Parduotuvė
+            li
+              a(href="../../#info") Informacija
+            li
+              a(href="../../#contacts") Kontaktai
+            
+    section#home
+      
+      .text-wrapper
+        h2 Baterijos
+      
+      .flex.flex--center
+        .wrapper
+          .col-1
+            .product
+              .image-wrap
+                a(href="wismec.html").product-description
+                  p Jeigu reikia ilgai laikančios baterijos, tai ši yra kaip tik jums, nes talpina savyje net 3 baterijas.
+                img(src="../../assets/img/shop-products/mods/wismec-reuleaux.jpg", alt="Wismec Reuleaux")
+              
+              p.product-name Wismec Reuleaux
+              p.product-price 59,99&#8364
+              a(href="#").button Į krepšelį
+          .col-1
+            .product
+              .image-wrap
+                a(href="evic.html").product-description
+                  p Kompaktiška bet galinga baterija, turinti net 75 vatų galią.
+                img(src="../../assets/img/shop-products/mods/evic-vtc.jpg", alt="Evic VTC Mini")
+              p.product-name Evic VTC Mini
+              p.product-price 54,99&#8364
+              a(href="#").button Į krepšelį
+          .col-1
+            .product
+              .image-wrap
+                a(href="istick.html").product-description
+                  p Paprasto dizaino baterija, galinti pasiekti 100 vatų galią.
+                img(src="../../assets/img/shop-products/mods/istick.jpg", alt="iStick")
+              p.product-name iStick
+              p.product-price 39,99&#8364
+              a(href="#").button Į krepšelį
+          .col-1
+            .product
+              .image-wrap
+                a(href="kbox.html").product-description
+                  p KangerTech produktas, labai patogus rankai, paprastas valdymas.
+                img(src="../../assets/img/shop-products/mods/kbox.jpg", alt="KBox")
+              p.product-name KBox
+              p.product-price 49,99&#8364
+              a(href="#").button Į krepšelį
+          .col-1
+            .product
+              .image-wrap
+                a(href="sigelei.html").product-description
+                  p Turinti specialų paviršių, ši baterija yra labai patogi naudojimui. Siekia net 150 vatų galią.
+                img(src="../../assets/img/shop-products/mods/sigelei.jpg", alt="Sigelei")
+              p.product-name Sigelei
+              p.product-price 99,99&#8364
+              a(href="#").button Į krepšelį
+          .col-1
+            .product
+              .image-wrap
+                a(href="snow-wolf.html").product-description
+                  p Daugelio mėgstamiausias Snow Wolf 200w.
+                img(src="../../assets/img/shop-products/mods/snow-wolf.jpg", alt="Snow Wolf")
+              p.product-name Snow Wolf
+              p.product-price 99,99&#8364
+              a(href="#").button Į krepšelį
+              
+      .pagination
+        ul
+          a(href="#").disabled Atgal
+            li
+          a(href="#").current 1
+            li
+          a(href="#") 2
+            li            
+          a(href="#") Pirmyn
+            li
+            
+          
+    footer
+      .wrapper
+        ul
+          li
+            a(href="../../#home") Pradžia
+          li
+            a(href="../../#shop") Parduotuvė
+          li
+            a(href="../../#info") Informacija
+          li
+            a(href="../../#contacts") Kontaktai
+            
+        .text-wrapper
+          h6 &copy; Copyright 2016 / <a href="#miniheader">Smoke Cloud</a>
+          
+        .social
+          a(href="https://www.youtube.com/", target="_blank")
+            .ikona.yt
+              include ../../assets/img/icons/youtube.html
+          a(href="https://www.facebook.com/", target="_blank")
+            .ikona.fb
+              include ../../assets/img/icons/facebook.html
+            
+    script(src="../../assets/js/jquery-2.2.0.min.js")
+    script(src="../../assets/js/functions.js", type="text/javascript")

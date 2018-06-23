@@ -1,0 +1,128 @@
+doctype
+html
+  head
+    meta(charset="utf-8")
+    title Smoke Cloud
+    meta(name="viewport", content="width=device-width, initial-scale=1")
+    
+    link(rel="stylesheet", href="../../assets/css/main.css")
+    
+  body
+    
+    header#miniheader
+      .wrapper 
+        nav
+          a(href="../../index.html", alt="Smoke Cloud")
+            .logo
+              img(src="../../assets/img/icons/logo.svg")
+          
+          ul 
+            li
+              a(href="../../#home") Pradžia
+            li
+              a(href="../../#shop") Parduotuvė
+            li
+              a(href="../../#info") Informacija
+            li
+              a(href="../../#contacts") Kontaktai
+        
+    section#home
+      
+      .text-wrapper
+        h2 Rinkiniai
+      
+      .flex.flex--center
+        .wrapper
+          .col-1
+            .product
+              .image-wrap
+                a(href="boxer.html").product-description
+                  p Paprasta elektroninė cigaretė skirta pažengusiems garintojams.
+                img(src="../../assets/img/shop-products/starter-kit/boxer.jpg", alt="Boxer Kit")
+              
+              p.product-name Boxer Kit
+              p.product-price 99,99&#8364
+              a(href="#").button Į krepšelį
+          .col-1
+            .product
+              .image-wrap
+                a(href="kanger-kit.html").product-description
+                  p Paprasta, bet stilinga, leidžianti mėgautis labai skaniu skoniu bei tirštais dūmais.
+                img(src="../../assets/img/shop-products/starter-kit/kanger-topbox.jpg", alt="Kanger Kit")
+              p.product-name Kanger Kit
+              p.product-price 109,99&#8364
+              a(href="#").button Į krepšelį
+          .col-1
+            .product
+              .image-wrap
+                a(href="ego.html").product-description
+                  p Elektroninė cigaretė su mechaniniu modu.
+                img(src="../../assets/img/shop-products/starter-kit/ego-vt.jpg", alt="Ego VT")
+              p.product-name Ego VT
+              p.product-price 89,99&#8364
+              a(href="#").button Į krepšelį
+          .col-1
+            .product
+              .image-wrap
+                a(href="nebox.html").product-description
+                  p Tai kompaktiška elektroninė, kaitiklis yra baterijos viduje.
+                img(src="../../assets/img/shop-products/starter-kit/kanger-nebox.jpg", alt="Kanger Nebox")
+              p.product-name Kanger Nebox
+              p.product-price 99,99&#8364
+              a(href="#").button Į krepšelį
+          .col-1
+            .product
+              .image-wrap
+                a(href="vaporesso.html").product-description
+                  p Iššskirtinio dizaino elektroninė cigaretė.
+                img(src="../../assets/img/shop-products/starter-kit/vaporesso.jpg", alt="Vaporesso")
+              p.product-name Vaporesso
+              p.product-price 79,99&#8364
+              a(href="#").button Į krepšelį
+          .col-1
+            .product
+              .image-wrap
+                a(href="evic.html").product-description
+                  p Temperatūrą reguliuojantis prietaisas leidžia mėgautis tirštu ir šiltu dūmu.
+                img(src="../../assets/img/shop-products/starter-kit/vtc-mini.jpg", alt="Evic VTC")
+              p.product-name Evic VTC
+              p.product-price 59,99&#8364
+              a(href="#").button Į krepšelį
+              
+      .pagination
+        ul
+          a(href="#").disabled Atgal
+            li
+          a(href="#").current 1
+            li
+          a(href="#") 2
+            li            
+          a(href="#") Pirmyn
+            li
+            
+          
+    footer
+      .wrapper
+        ul
+          li
+            a(href="../../#home") Pradžia
+          li
+            a(href="../../#shop") Parduotuvė
+          li
+            a(href="../../#info") Informacija
+          li
+            a(href="../../#contacts") Kontaktai
+            
+        .text-wrapper
+          h6 &copy; Copyright 2016 / <a href="#miniheader">Smoke Cloud</a>
+          
+        .social
+          a(href="https://www.youtube.com/", target="_blank")
+            .ikona.yt
+              include ../../assets/img/icons/youtube.html
+          a(href="https://www.facebook.com/", target="_blank")
+            .ikona.fb
+              include ../../assets/img/icons/facebook.html
+            
+    script(src="../../assets/js/jquery-2.2.0.min.js")
+    script(src="../../assets/js/functions.js", type="text/javascript")

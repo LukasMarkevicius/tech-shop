@@ -1,0 +1,58 @@
+section#shop
+  background: $plate
+  background-image: url(../img/pattern.svg)
+  background-position: center
+
+  .wrapper
+    max-width: 1400px
+    display: flex
+    flex-wrap: wrap
+    justify-content: center
+
+    @media (max-width: 1350px)
+      max-width: 700px
+      margin: 0 auto
+
+    a
+      text-decoration: none
+      text-align: center
+      font-size: 20px
+
+      .category
+        width: 300px
+        height: 300px
+        margin: 0 10px 20px
+        background: $white
+        color: $border
+        border: 3px solid $border
+        border-radius: 10px
+        transition: all 0s
+
+        &:hover
+          border: 3px solid $blue
+          color: $blue
+
+          .image
+            path
+              fill: $blue
+
+        .image
+          max-width: 180px
+          max-height: 180px
+          // height: 100%
+          margin: 40px auto 0
+
+
+          @media (max-width: 680px)
+            width: 70px
+            height: 70px
+            margin: 10px auto 0
+
+@media (max-width: 680px)
+  section#shop
+    .wrapper
+      max-width: 400px
+
+      .category
+        max-width: 130px
+        max-height: 130px

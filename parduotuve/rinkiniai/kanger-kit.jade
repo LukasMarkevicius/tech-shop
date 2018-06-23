@@ -1,0 +1,67 @@
+doctype
+html
+  head
+    meta(charset="utf-8")
+    title Smoke Cloud
+    meta(name="viewport", content="width=device-width, initial-scale=1")
+    
+    link(rel="stylesheet", href="../../assets/css/main.css")
+    
+  body
+    
+    header#miniheader
+      .wrapper 
+        nav
+          a(href="../../index.html", alt="Smoke Cloud")
+            .logo
+              img(src="../../assets/img/icons/logo.svg")
+          
+          ul 
+            li
+              a(href="../../#home") Pradžia
+            li
+              a(href="../../#shop") Parduotuvė
+            li
+              a(href="../../#info") Informacija
+            li
+              a(href="../../#contacts") Kontaktai
+            
+    section#home
+    
+      .text-wrapper
+        h2 Kanger Kit
+        
+      .flex.flex--center
+        .show-wrapper
+          .image-wrap
+            img(src="../../assets/img/shop-products/starter-kit/kanger-topbox.jpg", alt="Kanger Kit")
+          
+          p.description Kanger Topbox rinkinys - puikus rinkinys tiek pradedantiems, tiek pažengusiems garintojams. Šis rinkinys susideda iš topbox baterijos modifikacijos ir derančios spalvos Kanger Toptank MINI kaitiklio.
+          .buy
+            p.product-price 109,99&#8364
+            a(href="#").button Į krepšelį
+    footer
+      .wrapper
+        ul
+          li
+            a(href="../../#home") Pradžia
+          li
+            a(href="../../#shop") Parduotuvė
+          li
+            a(href="../../#info") Informacija
+          li
+            a(href="../../#contacts") Kontaktai
+            
+        .text-wrapper
+          h6 &copy; Copyright 2016 / <a href="#miniheader">Smoke Cloud</a>
+          
+        .social
+          a(href="https://www.youtube.com/", target="_blank")
+            .ikona.yt
+              include ../../assets/img/icons/youtube.html
+          a(href="https://www.facebook.com/", target="_blank")
+            .ikona.fb
+              include ../../assets/img/icons/facebook.html
+            
+    script(src="../../assets/js/jquery-2.2.0.min.js")
+    script(src="../../assets/js/functions.js", type="text/javascript")
