@@ -18,7 +18,7 @@ This was a university project where we had to design website and later code it w
 
 ## Authors
 
-* **Lukas Markevičius** - [Portfolio](http://159.89.226.143/)
+* **Lukas Markevičius** - [Portfolio](http://lukasmarkevicius.com/)
 
 ## License
 
